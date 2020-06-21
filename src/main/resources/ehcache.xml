@@ -1,0 +1,21 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="false">
+    <defaultCache
+        eternal="false"
+        maxElementsInMemory="1000"
+        overflowToDisk="false"
+        diskPersistent="false"
+        timeToIdleSeconds="30"
+        timeToLiveSeconds="30"
+        memoryStoreEvictionPolicy="LRU"/>
+    <cache
+        name="userlist"
+        eternal="false"
+        maxElementsInMemory="100"
+        overflowToDisk="false"
+        diskPersistent="false"
+        timeToIdleSeconds="30"
+        timeToLiveSeconds="30"
+        memoryStoreEvictionPolicy="LRU"/>
+</ehcache>
